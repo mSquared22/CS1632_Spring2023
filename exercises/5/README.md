@@ -26,7 +26,7 @@ Spring Semester 2023 - Exercise 5
 
 * DUE: March 24 (Friday), 2023 11:59 PM
 
-**GitHub Classroom Link:** TBD
+**GitHub Classroom Link:** https://classroom.github.com/a/0gKWqLbz
 
 ## Description
 
