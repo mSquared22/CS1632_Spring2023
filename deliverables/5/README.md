@@ -743,7 +743,7 @@ get the following failures:
    ====================================================== system under test
    edu.pitt.cs.TestRunner.main("impl","trace")
 
-   ====================================================== search started: 7/28/22 1:03 AM
+   ====================================================== search started: 3/20/23 1:03 AM
    TESTING YOUR IMPLEMENTATION WITH JPF USING JUNIT EMULATION FOR TRACING
 
 
@@ -821,7 +821,7 @@ defects that we missed before in plain JUnit testing:
    ====================================================== system under test
    edu.pitt.cs.TestRunner.main("buggy","junit")
 
-   ====================================================== search started: 7/28/22 1:13 AM
+   ====================================================== search started: 3/20/23 1:13 AM
    TESTING BUGGY IMPLEMENTATION WITH JPF USING JUNIT FRAMEWORK
 
    testAdvanceStepCoordinates(JPFJUnitTest): Failure in (slotCount=2, beanCount=1, isLucky=true):
@@ -844,7 +844,7 @@ defects that we missed before in plain JUnit testing:
    max memory:         700MB
    loaded code:        classes=343,methods=4714
 
-   ====================================================== search finished: 7/28/22 1:13 AM
+   ====================================================== search finished: 3/20/23 1:13 AM
    ```    
 
 Now go ahead and implement all the other property-based tests and see if you
