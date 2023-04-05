@@ -798,9 +798,9 @@ Also, in maven-ci.yml, make the following changes to the "build" job:
 
 2. Also order the "build" job after the "maven_test" job so that the cache
    is available by the time it runs:
-   '''
+   ```
    needs: [maven_test]  # Enforces that maven_test runs first
-   '''
+   ```
 
 Once you commit and push the above file changes, this will trigger a new
 Maven CI run:
