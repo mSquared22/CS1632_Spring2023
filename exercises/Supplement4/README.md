@@ -1049,15 +1049,7 @@ selenium/src/test/java/edu/pitt/cs.
 
 You need to do these three things though in D3Test.java:
 
-1. Get rid of this line (or similar) in @Before setup():
-
-   ```
-   System.setProperty("webdriver.chrome.driver", "Chrome/chromedriver-win32.exe");
-   ```
-
-   Now the Selenium Manager takes care of the web driver installation.
-
-1. Replace the root URL of the web pages accessed with "localhost:8080".  
+1. Replace the root URL of the web pages accessed with "http://localhost:8080".  Please make sure you use http:// and not https://.
 
 1. Remove the tests that fail because they trigger defects on the web app
    (remember the tests whose names start with DEFECT?).
@@ -1067,32 +1059,6 @@ Make sure everything passes with:
 ```
 mvn test
 ```
-
-If you get a compile error that looks like this:
-
-```
-incompatible types: int cannot be converted to java.time.Duration
-```
-
-Please do the following:
-
-1. Add this import to the list of imports:
-
-   ```
-   import java.time.Duration;
-   ```
-
-1. Replace all instances where the compiler complains that seconds are
-   expressed as an int to the following expression (with 30 replaced with
-the desired seconds):
-
-   ```
-   Duration.ofSeconds(30)
-   ```
-
-I had to update the Selenium version number on the POM file to the most
-recent one to enable the Selenium Manager and Selenium is not backwards
-compatible, sorry.
 
 ### Add CI Test Workflow
 
