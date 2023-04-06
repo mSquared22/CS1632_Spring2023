@@ -857,19 +857,19 @@ download and install a web driver that matches your current Chrome browser
 (hooray!).  You can invoke Selenium Manager as follows, if you use Windows:
    
    ```
-   selenium-manager\windows\selenium-manager.exe --browser chrome
+   selenium\manager\windows\selenium-manager.exe --browser chrome
    ```
 
    If you use MacOS:
 
    ```
-   selenium-manager/macos/selenium-manager --browser chrome
+   selenium/manager/macos/selenium-manager --browser chrome
    ```
 
    If you use Linux:
 
    ```
-   selenium-manager/linux/selenium-manager --browser chrome
+   selenium/manager/linux/selenium-manager --browser chrome
    ```
 
 ### Do some sanity tests
