@@ -1328,7 +1328,7 @@ Next, copy the "Install from the command line" text from your GitHub package
 page, which was in my case:
 
 ```
-docker pull ghcr.io/cs1632/supplementary-exercise-4-dockers-wonsunahn:main
+docker pull ghcr.io/cs1632/supplementary-exercise-4-ci-cd-dockers-wonsunahn:main
 ```
 
 Paste it on a terminal to run it.  This will pull the published image on to
