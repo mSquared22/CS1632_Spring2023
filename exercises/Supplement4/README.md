@@ -1331,8 +1331,9 @@ page, which was in my case:
 docker pull ghcr.io/cs1632/supplementary-exercise-4-ci-cd-dockers-wonsunahn:main
 ```
 
-Paste it on a terminal to run it.  This will pull the published image on to
-your Docker Desktop.  If you check the "Images" menu, you will see a new
+After replacing "supplementary-exercise-4-ci-cd-dockers-wonsunahn" with the name
+of your repository, run it on the terminal.  This will pull the published image
+on to your Docker Desktop.  If you check the "Images" menu, you will see a new
 image created:
 
 <img alt="Published Docker image pulled" src=img/docker_4.png>
