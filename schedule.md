@@ -135,9 +135,9 @@ AFIST = [_A Friendly Introduction to Software Testing_](software-quality-assuran
 
 ## WEEK 15 (Week of 17 APR)
 
-* Class 1: In-class Supplementary Exercise 4 wrap up / Deliverable 5 Q & A
+* Class 1: Midterm 2 review / Deliverable 5 Q & A
 
-* Class 2: Midterm 2 review
+* Class 2: NO CLASS (Study for Midterm 2)
 
 * Midterm 2 on GradeScope: April 21 (Friday) 8:00 AM - April 23 (Sunday) 11:59 PM
   * Check out the **[study guide](/study_guides/midterm_2_study_guide.md)**!
