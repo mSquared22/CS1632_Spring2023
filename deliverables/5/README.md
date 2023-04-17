@@ -551,8 +551,17 @@ invoke the JPFJUnitTest JUnit class running on top of JPF.  The PlainJUnitTest
 JUnit class is not suitable for running on JPF so we will ignore it.  Running
 TestRunner without any arguments will result in the following message:
 
+For Windows:
+
 ```
-$ java -cp target/test-classes edu.pitt.cs.TestRunner
+$ java -cp "target/test-classes;target/classes" edu.pitt.cs.TestRunner
+Usage: TestRunner <logic type (impl | solution | buggy)> <test type (junit | trace)>
+```
+
+For Mac/Linux:
+
+```
+$ java -cp "target/test-classes:target/classes" edu.pitt.cs.TestRunner
 Usage: TestRunner <logic type (impl | solution | buggy)> <test type (junit | trace)>
 ```
 
