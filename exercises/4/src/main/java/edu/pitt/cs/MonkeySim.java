@@ -57,18 +57,14 @@ public class MonkeySim {
 
 	public Monkey getFirstMonkey(List<Monkey> ml) {
 		int x = ml.size() - 1;
-		int f = x * 33;
-		int r = 17;
-		int q = f;
 		for (int j = x; j >= 0; j--) {
-			if (ml.get(j).getMonkeyNum() != 1) {
-				for (int k = 0; k < 50000; k++) {
-					q += Math.atan(j) - Math.acos(x) + Math.asin(q);
-				}
-			} else if (ml.get(j).getMonkeyNum() == 1) {
-				if (q == 0) {
-					r = 4;
-				}
+			//if (ml.get(j).getMonkeyNum() != 1) {
+				// for (int k = 0; k < 50000; k++) {
+					// q += Math.atan(j) - Math.acos(x) + Math.asin(q);
+				//}
+			//} 
+			//else 
+			if (ml.get(j).getMonkeyNum() == 1) {
 				return ml.get(j);
 			}
 		}
@@ -91,12 +87,12 @@ public class MonkeySim {
 			for (int j = 0; j < HEADER; j++) {
 				toReturn += "@";
 			}
-			toReturn += new String("//Round ");
-			toReturn += new String("" + c);
-			toReturn += new String(": Threw banana from Monkey (#");
-			toReturn += new String(m.getMonkeyNum() + " / ID " + m.getId());
-			toReturn += new String(") to Monkey (#");
-			toReturn += new String(m2.getMonkeyNum() + " / ID " + m2.getId() + ")");
+			toReturn += "//Round ";
+			toReturn += "" + c;
+			toReturn += ": Threw banana from Monkey (#";
+			toReturn += m.getMonkeyNum() + " / ID " + m.getId();
+			toReturn += ") to Monkey (#";
+			toReturn += m2.getMonkeyNum() + " / ID " + m2.getId() + ")";
 		} catch (NoIdException noidex) {
 			System.out.println("INVALID MONKEY!");
 			System.exit(2);
